@@ -5,7 +5,7 @@
     <classes>
       <class name="Login.Validuser">
         <methods>
-          <include name="case2"/>
+          <include name="case1"/>
         </methods>
       </class> <!-- Login.Validuser -->
     </classes>
