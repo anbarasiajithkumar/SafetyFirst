@@ -36,7 +36,7 @@ public class Validuser {
 		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(2000);
 		String actualTitle = driver.getTitle();
-		String expectedTitle = "My Title";
+		String expectedTitle = "My tTitle";
 		assertEquals(actualTitle, expectedTitle);
 		driver.close();
 	}
