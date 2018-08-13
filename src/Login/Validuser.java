@@ -26,7 +26,7 @@ public class Validuser {
 
 	@Test
 	public void case2() throws InterruptedException {
-		System.out.println(" Executing SAF urls second time with negative input.....");
+		System.out.println(" Executing SAF urls second time with negative input.");
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium-files\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://teammigrate:18080/#/user/login");

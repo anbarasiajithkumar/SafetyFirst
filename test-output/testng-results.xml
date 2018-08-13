@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33061" started-at="2018-08-13T17:34:40Z" finished-at="2018-08-13T17:35:13Z">
+  <suite name="Default suite" duration-ms="29782" started-at="2018-08-13T17:52:44Z" finished-at="2018-08-13T17:53:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33061" started-at="2018-08-13T17:34:40Z" finished-at="2018-08-13T17:35:13Z">
+    <test name="Default test" duration-ms="29782" started-at="2018-08-13T17:52:44Z" finished-at="2018-08-13T17:53:14Z">
       <class name="Login.Validuser">
-        <test-method status="PASS" signature="case1()[pri:0, instance:Login.Validuser@675d3402]" name="case1" duration-ms="16305" started-at="2018-08-13T23:04:40Z" finished-at="2018-08-13T23:04:57Z">
+        <test-method status="PASS" signature="case1()[pri:0, instance:Login.Validuser@675d3402]" name="case1" duration-ms="15202" started-at="2018-08-13T23:22:44Z" finished-at="2018-08-13T23:22:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case1 -->
-        <test-method status="FAIL" signature="case2()[pri:0, instance:Login.Validuser@675d3402]" name="case2" duration-ms="16725" started-at="2018-08-13T23:04:57Z" finished-at="2018-08-13T23:05:13Z">
+        <test-method status="FAIL" signature="case2()[pri:0, instance:Login.Validuser@675d3402]" name="case2" duration-ms="14549" started-at="2018-08-13T23:22:59Z" finished-at="2018-08-13T23:23:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
