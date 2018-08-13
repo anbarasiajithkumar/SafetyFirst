@@ -12,7 +12,7 @@ public class Validuser {
 
 	@Test
 	public void case1() throws InterruptedException {
-		System.out.println(" Executing SAF urls");
+		System.out.println(" Executing SAF urls first time");
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium-files\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://teammigrate:18080/#/user/login");
@@ -26,7 +26,7 @@ public class Validuser {
 
 	@Test
 	public void case2() throws InterruptedException {
-		System.out.println(" Executing SAF urls.....");
+		System.out.println(" Executing SAF urls second time with negative input.....");
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium-files\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://teammigrate:18080/#/user/login");
@@ -36,7 +36,7 @@ public class Validuser {
 		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(2000);
 		String actualTitle = driver.getTitle();
-		String expectedTitle = "My tTitle";
+		String expectedTitle = "My Title";
 		assertEquals(actualTitle, expectedTitle);
 		driver.close();
 	}
