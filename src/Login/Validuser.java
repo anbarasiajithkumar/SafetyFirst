@@ -12,7 +12,7 @@ public class Validuser {
 
 	@Test
 	public void case1() throws InterruptedException {
-		System.out.println(" Executing SAF urls first time");
+		System.out.println(" Executing SAF urls first time..");
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium-files\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://teammigrate:18080/#/user/login");
