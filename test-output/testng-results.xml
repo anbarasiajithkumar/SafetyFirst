@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35577" started-at="2018-08-13T18:04:41Z" finished-at="2018-08-13T18:05:16Z">
+  <suite name="Default suite" duration-ms="56753" started-at="2018-09-05T11:28:52Z" finished-at="2018-09-05T11:29:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35577" started-at="2018-08-13T18:04:41Z" finished-at="2018-08-13T18:05:16Z">
+    <test name="Default test" duration-ms="56753" started-at="2018-09-05T11:28:52Z" finished-at="2018-09-05T11:29:49Z">
       <class name="Login.Validuser">
-        <test-method status="PASS" signature="case1()[pri:0, instance:Login.Validuser@675d3402]" name="case1" duration-ms="22224" started-at="2018-08-13T23:34:41Z" finished-at="2018-08-13T23:35:03Z">
+        <test-method status="PASS" signature="case1()[pri:0, instance:Login.Validuser@675d3402]" name="case1" duration-ms="15336" started-at="2018-09-05T16:58:52Z" finished-at="2018-09-05T16:59:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case1 -->
-        <test-method status="FAIL" signature="case2()[pri:0, instance:Login.Validuser@675d3402]" name="case2" duration-ms="13326" started-at="2018-08-13T23:35:03Z" finished-at="2018-08-13T23:35:16Z">
+        <test-method status="FAIL" signature="case2()[pri:0, instance:Login.Validuser@675d3402]" name="case2" duration-ms="41382" started-at="2018-09-05T16:59:08Z" finished-at="2018-09-05T16:59:49Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
@@ -23,7 +23,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at Login.Validuser.case2(Validuser.java:40)
+	at Login.Validuser.case2(Validuser.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

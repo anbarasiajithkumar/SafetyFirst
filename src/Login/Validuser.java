@@ -19,6 +19,7 @@ public class Validuser {
 		driver.manage().window().maximize();
 		driver.findElement(By.id("userName")).sendKeys("hprasad");
 		driver.findElement(By.id("password")).sendKeys("Test@123");
+		Thread.sleep(2000);
 		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(2000);
 		driver.close();
